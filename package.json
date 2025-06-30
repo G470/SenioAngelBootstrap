@@ -21,8 +21,8 @@
   "author": "SenioAngel Team",
   "license": "MIT",
   "devDependencies": {
-    "sass": "^1.69.0",
-    "live-server": "^1.2.2"
+    "live-server": "^1.2.0",
+    "sass": "^1.69.0"
   },
   "dependencies": {
     "bootstrap": "^5.3.0"
@@ -31,4 +31,4 @@
     "node": ">=16.0.0",
     "npm": ">=8.0.0"
   }
-} 
+}
