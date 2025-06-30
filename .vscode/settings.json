@@ -1,0 +1,48 @@
+{
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "/build/css"
+    },
+    {
+      "format": "compressed",
+      "extensionName": ".min.css",
+      "savePath": "/build/css"
+    }
+  ],
+  "liveSassCompile.settings.excludeList": [
+    "**/node_modules/**",
+    ".vscode/**",
+    "**/vendor/**"
+  ],
+  "liveSassCompile.settings.autoprefix": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "liveSassCompile.settings.generateMap": true,
+  "liveSassCompile.settings.includeItems": [
+    "/scss/bootstrap.scss"
+  ],
+  "files.associations": {
+    "*.scss": "scss",
+    "*.sass": "sass"
+  },
+  "scss.validate": true,
+  "css.validate": true,
+  "less.validate": true,
+  "emmet.includeLanguages": {
+    "scss": "css"
+  },
+  "emmet.syntaxProfiles": {
+    "scss": "css"
+  },
+  "files.watcherExclude": {
+    "**/node_modules/**": true,
+    "**/build/**": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/build": true
+  }
+} 
